@@ -1,0 +1,11 @@
+{
+    "name": "helios-discord-notify",
+    "version": "0.1.0",
+    "scripts": {
+      "build": "echo 'No build step'"
+    },
+    "dependencies": {
+      "node-fetch": "^2.6.1"
+    }
+  }
+  
