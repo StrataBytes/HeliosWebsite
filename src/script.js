@@ -31,3 +31,21 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     .then(data => alert('Message sent! We will get back to you soon.'))
     .catch(error => alert('Error sending message! Try again later.'));
 });
+
+
+
+
+document.getElementById('development-icon').addEventListener('click', function() {
+    document.getElementById('development-notice').style.display = 'block';
+});
+
+document.querySelector('.close').addEventListener('click', function() {
+    document.getElementById('development-notice').style.display = 'none';
+});
+
+// Close the modal if user clicks outside of it
+window.onclick = function(event) {
+    if (event.target == document.getElementById('development-notice')) {
+        document.getElementById('development-notice').style.display = 'none';
+    }
+};
