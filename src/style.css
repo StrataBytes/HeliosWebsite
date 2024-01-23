@@ -7,36 +7,36 @@ body {
 }
 
 header {
-    background-color: #333; /* Or choose a color that fits your theme */
+    background-color: #333; 
     color: #fff;
-    padding: 1rem 2rem; /* Add more horizontal padding */
+    padding: 1rem 2rem;
     text-align: center;
-    border-radius: 0 0 50px 50px; /* Rounded corners at the bottom */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
-    position: relative; /* Adjusted */
-    z-index: 10; /* Ensures the header is above the intro section */
+    border-radius: 0 0 50px 50px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+    position: relative; 
+    z-index: 10; 
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    display: flex; /* Align nav items in a row */
-    justify-content: center; /* Center the nav items */
+    display: flex; 
+    justify-content: center; 
 }
 
 nav ul li {
-    margin: 0 15px; /* Space out the nav items */
+    margin: 0 15px; 
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-weight: bold; /* Make the text a bit bolder */
-    transition: color 0.3s ease; /* Smooth transition for hover effect */
+    font-weight: bold; 
+    transition: color 0.3s ease; 
 }
 
 nav ul li a:hover {
-    color: #4caf50; /* Change color on hover */
+    color: #4caf50;
 }
 
 
@@ -47,7 +47,7 @@ nav ul li a:hover {
     text-align: center;
     padding: 50px 20px;
     padding-bottom: 0;
-    padding-bottom: 40px; /* Increase padding for better spacing */
+    padding-bottom: 40px; 
 }
 
 .hero h2 {
@@ -62,11 +62,11 @@ nav ul li a:hover {
 
 .feature-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Change to auto-fit */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
     gap: 30px;
     padding: 40px;
-    justify-items: center; /* Center align individual items */
-    text-align: center; /* Center align text within tiles */
+    justify-items: center; 
+    text-align: center;
 }
 
 .feature-tile {
@@ -75,12 +75,12 @@ nav ul li a:hover {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
-    min-height: 180px; /* Ensure uniform height for all tiles */
+    min-height: 180px; 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 150px; /* Set a fixed width for uniformity */
+    width: 150px; 
 }
 
 .feature-tile:hover {
@@ -106,16 +106,13 @@ footer {
 
 
 
-
-
-
 .intro {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: calc(70vh - 60px); /* Adjusted height */
-    margin-top: -60px; /* Pulls the intro section up */
+    height: calc(70vh - 60px); 
+    margin-top: -60px; 
     background: #0b3d91;
     background-image: 
         linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px),
@@ -123,10 +120,10 @@ footer {
     background-size: 50px 50px;
     text-align: center;
     color: #ffffff;
-    text-shadow: 0 0 5px rgba(231, 231, 231, 0.7); /* Optional: Adds a glow effect to the text */
+    text-shadow: 0 0 5px rgba(231, 231, 231, 0.7);
     overflow: hidden;
     position: relative;
-    padding: 60px 20px 60px 20px; /* Adjusted padding */
+    padding: 60px 20px 60px 20px;
 }
 
 
@@ -137,13 +134,13 @@ footer {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 500px; /* Increased size */
-    height: 500px; /* Increased size */
-    margin-top: -250px; /* Adjust margin to be half of the new height */
-    margin-left: -250px; /* Adjust margin to be half of the new width */
+    width: 500px; 
+    height: 500px; 
+    margin-top: -250px; 
+    margin-left: -250px; 
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
-    animation: radar-ping 5s infinite; /* Slower animation */
+    animation: radar-ping 5s infinite; 
     z-index: 1;
 }
 
@@ -164,26 +161,15 @@ footer {
 
 
 .intro h2 {
-    font-size: 3em; /* Increased font size */
+    font-size: 3em; 
     margin-bottom: 30px;
 }
 
 .intro p {
-    font-size: 1.5em; /* Increased font size */
-    max-width: 600px; /* Limit the width of the text for better readability */
-    margin: 0 auto; /* Center the text block */
+    font-size: 1.5em; 
+    max-width: 600px; 
+    margin: 0 auto; 
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -192,40 +178,37 @@ footer {
     align-items: center;
     justify-content: center;
     padding: 50px 20px;
-    background-color: #f4f4f4; /* Or any color that suits your theme */
+    background-color: #f4f4f4; 
 }
 
 .about-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1000px; /* Adjust as needed */
+    max-width: 1000px; 
     margin: 0 auto;
 }
 
 .about-text {
     flex: 1;
-    padding-right: 20px; /* Space between text and image */
+    padding-right: 20px; 
 }
 
 .about-img {
     flex: 1;
-    text-align: center; /* Center the image in its container */
+    text-align: center; 
 }
 
 .about-img img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px; /* Optional: for rounded corners */
+    border-radius: 10px; 
 }
-
-/* Rest of the CSS */
-
 
 
 
 #features {
-    background-color: #eaeaea; /* Light background for the section */
+    background-color: #eaeaea; 
     padding: 50px 20px;
     text-align: center;
 }
@@ -237,7 +220,7 @@ footer {
 
 .feature-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
     gap: 20px;
     padding: 0;
 }
@@ -247,22 +230,14 @@ footer {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 15px;
-    text-align: left; /* Align text to the left in each card */
+    text-align: left; 
 }
 
 .feature-card img {
     width: 100%;
     height: auto;
-    border-radius: 10px; /* Optional: for rounded image corners */
+    border-radius: 10px; 
 }
-
-/* Rest of the CSS */
-
-
-
-
-
-
 
 
 
@@ -326,13 +301,7 @@ footer {
     background-color: #444;
 }
 
-/* Rest of the CSS */
 
-
-
-/* Existing CSS content */
-
-/* Floating Icon/Button */
 .floating-icon {
     position: fixed;
     bottom: 20px;
@@ -346,7 +315,7 @@ footer {
     z-index: 1000;
 }
 
-/* Development Notice Modal/Popup */
+
 .modal {
     display: none;
     position: fixed;
@@ -382,4 +351,14 @@ footer {
     cursor: pointer;
 }
 
-/* Rest of the CSS */
+
+
+footer a {
+    color: #cfcfcf; 
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #7c7c7c;
+}

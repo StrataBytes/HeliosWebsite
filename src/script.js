@@ -43,7 +43,7 @@ document.querySelector('.close').addEventListener('click', function() {
     document.getElementById('development-notice').style.display = 'none';
 });
 
-// Close the modal if user clicks outside of it
+
 window.onclick = function(event) {
     if (event.target == document.getElementById('development-notice')) {
         document.getElementById('development-notice').style.display = 'none';
