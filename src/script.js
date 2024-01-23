@@ -28,6 +28,6 @@ document.getElementById('contact-form').addEventListener('submit', function(even
         body: JSON.stringify(formData)
     })
     .then(response => response.json())
-    .then(data => alert('Message sent successfully!'))
-    .catch(error => alert('Error sending message.'));
+    .then(data => alert('Message sent! We will get back to you soon.'))
+    .catch(error => alert('Error sending message! Try again later.'));
 });
