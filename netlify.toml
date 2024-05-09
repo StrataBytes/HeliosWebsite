@@ -1,7 +1,7 @@
 [build]
-  command = "npm run build" # Your build command
-  functions = "functions"   # Directory with your Lambda functions
-  publish = "src"           # Directory with your static files
+  command = "npm run build" 
+  functions = "functions"  
+  publish = "src"          
 
 [build.environment]
-  NODE_VERSION = "14" # Set the Node.js version for your functions
+  NODE_VERSION = "14" 
